@@ -1,6 +1,7 @@
- """
- main.py
- =======
+"""
+main.py
+=======
+
  
  Entry point for the physics‑based orbit game.  This script sets up the
 -Pygame window, loads the first level and runs the main loop.  It handles
