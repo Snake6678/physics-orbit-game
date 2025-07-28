@@ -2,20 +2,20 @@
 main.py
 =======
 
- 
- Entry point for the physics‑based orbit game.  This script sets up the
--Pygame window, loads the first level and runs the main loop.  It handles
-+Pygame window, loads the initial level and runs the main loop.  It handles
- user input (keyboard and mouse), computes gravitational interactions
- between all bodies, updates positions, detects collisions and draws
- everything to the screen.
- 
- To start the game, run ``python3 main.py`` from a terminal.
- """
- 
- import math
- import sys
- from typing import List
+Entry point for the physics‑based orbit game. This script sets up the
+Pygame window, loads the initial level and runs the main loop. It handles
+user input (keyboard and mouse), computes gravitational interactions
+between all bodies, updates positions, detects collisions and draws
+everything to the screen.
+
+To start the game, run `python3 main.py` from a terminal.
+"""
+
+import math
+import sys
+from typing import List
+import pygame
+
  
  import pygame
  
