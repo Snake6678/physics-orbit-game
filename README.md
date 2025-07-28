@@ -39,9 +39,14 @@
  
  | Key        | Action                              |
  |-----------:|:-------------------------------------|
- | **←/→**    | Rotate the spacecraft               |
- | **↑**      | Fire the main thruster               |
- | **↓**      | Apply reverse thrust (braking)       |
+-| **←/→**    | Rotate the spacecraft               |
+-| **↑**      | Fire the main thruster               |
+-| **↓**      | Apply reverse thrust (braking)       |
++| **A/D**    | Rotate the spacecraft               |
++| **W**      | Fire the main thruster               |
++| **S**      | Apply reverse thrust (braking)       |
++| **←/→**    | Strafe left/right                    |
++| **↑/↓**    | Strafe up/down                       |
  | **R**      | Restart the level                    |
 +| **N**      | Advance to the next level (after success) |
  | **Mouse**  | Left‑click to spawn a small planet   |
@@ -73,4 +78,3 @@
 +* **Online leaderboards** – submit scores to compare with friends.
  * **Procedural generation** – randomise planetary systems for endless replayability.
  * **Audio** – add engine sounds and collision effects for immersion.
- 
