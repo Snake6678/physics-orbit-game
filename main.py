@@ -17,8 +17,6 @@ from typing import List
 import pygame
 
  
- import pygame
- 
  from physics import Body, SpaceShip, check_collision
 -from levels import level_one
 +from levels import level_one, level_two
